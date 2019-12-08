@@ -1,0 +1,510 @@
+{
+	"width": 640,
+	"height": 480,
+	"fps": 30,
+	"main": "./script/mainforone.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"mainforone": {
+			"type": "script",
+			"path": "script/mainforone.js",
+			"global": true
+		},
+		"pointer": {
+			"type": "image",
+			"path": "image/pointer.png",
+			"width": 960,
+			"height": 768
+		},
+		"direction": {
+			"type": "image",
+			"path": "image/direction.png",
+			"width": 255,
+			"height": 436
+		},
+		"config": {
+			"type": "script",
+			"path": "script/config/config.js",
+			"global": true
+		},
+		"GameBuildingModel": {
+			"type": "script",
+			"path": "script/model/GameBuildingModel.js",
+			"global": true
+		},
+		"GameCharacterModel": {
+			"type": "script",
+			"path": "script/model/GameCharacterModel.js",
+			"global": true
+		},
+		"GameItemModel": {
+			"type": "script",
+			"path": "script/model/GameItemModel.js",
+			"global": true
+		},
+		"GamePlayerModel": {
+			"type": "script",
+			"path": "script/model/GamePlayerModel.js",
+			"global": true
+		},
+		"FrameSpriteRepository": {
+			"type": "script",
+			"path": "script/repository/FrameSpriteRepository.js",
+			"global": true
+		},
+		"SpriteRepository": {
+			"type": "script",
+			"path": "script/repository/SpriteRepository.js",
+			"global": true
+		},
+		"GameFieldScene": {
+			"type": "script",
+			"path": "script/scene/GameFieldScene.js",
+			"global": true
+		},
+		"GameBuildingType": {
+			"type": "script",
+			"path": "script/type/GameBuildingType.js",
+			"global": true
+		},
+		"GameCharacterJobType": {
+			"type": "script",
+			"path": "script/type/GameCharacterJobType.js",
+			"global": true
+		},
+		"GameItemType": {
+			"type": "script",
+			"path": "script/type/GameItemType.js",
+			"global": true
+		},
+		"testMapText": {
+			"type": "text",
+			"path": "text/field_001.json"
+		},
+		"testArrangement": {
+			"type": "text",
+			"path": "text/map_chips_001.json"
+		},
+		"GameAnimationType": {
+			"type": "script",
+			"path": "script/type/GameAnimationType.js",
+			"global": true
+		},
+		"jobData": {
+			"type": "text",
+			"path": "text/jobs.json"
+		},
+		"GameTitleScene": {
+			"type": "script",
+			"path": "script/scene/GameTitleScene.js",
+			"global": true
+		},
+		"BuildingImg": {
+			"type": "image",
+			"width": 256,
+			"height": 352,
+			"path": "image/BuildingImg.png"
+		},
+		"DefaultBattleEffect": {
+			"type": "image",
+			"width": 1080,
+			"height": 120,
+			"path": "image/DefaultBattleEffect.png"
+		},
+		"ExplodeImg": {
+			"type": "image",
+			"width": 1800,
+			"height": 180,
+			"path": "image/ExplodeImg.png"
+		},
+		"coin": {
+			"type": "image",
+			"width": 960,
+			"height": 768,
+			"path": "image/coin.png"
+		},
+		"gold": {
+			"type": "image",
+			"width": 960,
+			"height": 768,
+			"path": "image/gold.png"
+		},
+		"moneyItem": {
+			"type": "image",
+			"width": 96,
+			"height": 128,
+			"path": "image/moneyItem.png"
+		},
+		"testMapImage": {
+			"type": "image",
+			"width": 480,
+			"height": 256,
+			"path": "image/testMapImage.png"
+		},
+		"PreLoad": {
+			"type": "script",
+			"path": "script/util/PreLoad.js",
+			"global": true
+		},
+		"GameBuildingModelFactory": {
+			"type": "script",
+			"path": "script/factory/model/GameBuildingModelFactory.js",
+			"global": true
+		},
+		"GameCharacterModelFactory": {
+			"type": "script",
+			"path": "script/factory/model/GameCharacterModelFactory.js",
+			"global": true
+		},
+		"GameItemModelFactory": {
+			"type": "script",
+			"path": "script/factory/model/GameItemModelFactory.js",
+			"global": true
+		},
+		"GameLifeObjectModel": {
+			"type": "script",
+			"path": "script/model/GameLifeObjectModel.js",
+			"global": true
+		},
+		"GamePointerModel": {
+			"type": "script",
+			"path": "script/model/GamePointerModel.js",
+			"global": true
+		},
+		"GameTeamType": {
+			"type": "script",
+			"path": "script/type/GameTeamType.js",
+			"global": true
+		},
+		"BattleCalculate": {
+			"type": "script",
+			"path": "script/util/BattleCalculate.js",
+			"global": true
+		},
+		"Array": {
+			"type": "script",
+			"path": "script/util/Array.js",
+			"global": true
+		},
+		"button": {
+			"type": "image",
+			"width": 205,
+			"height": 111,
+			"path": "image/button.png"
+		},
+		"pushed_button": {
+			"type": "image",
+			"width": 205,
+			"height": 111,
+			"path": "image/pushed_button.png"
+		},
+		"GameButtonModel": {
+			"type": "script",
+			"path": "script/model/GameButtonModel.js",
+			"global": true
+		},
+		"GameFieldSceneEvent": {
+			"type": "script",
+			"path": "script/scene/event/GameFieldSceneEvent.js",
+			"global": true
+		},
+		"GameButtonModelFactory": {
+			"type": "script",
+			"path": "script/factory/model/GameButtonModelFactory.js",
+			"global": true
+		},
+		"cost_viewer_down": {
+			"type": "image",
+			"width": 178,
+			"height": 129,
+			"path": "image/cost_viewer_down.png"
+		},
+		"cost_viewer_up": {
+			"type": "image",
+			"width": 178,
+			"height": 129,
+			"path": "image/cost_viewer_up.png"
+		},
+		"DynamicFontFactory": {
+			"type": "script",
+			"path": "script/factory/DynamicFontFactory.js",
+			"global": true
+		},
+		"GameCostView": {
+			"type": "script",
+			"path": "script/model/GameCostView.js",
+			"global": true
+		},
+		"GamePlayerSimplicityStatusViewer": {
+			"type": "script",
+			"path": "script/model/GamePlayerSimplicityStatusViewer.js",
+			"global": true
+		},
+		"GamePlayerRepository": {
+			"type": "script",
+			"path": "script/repository/model/GamePlayerRepository.js",
+			"global": true
+		},
+		"GameOverScene": {
+			"type": "script",
+			"path": "script/scene/GameOverScene.js",
+			"global": true
+		},
+		"GameTitleSceneEvent": {
+			"type": "script",
+			"path": "script/scene/event/GameTitleSceneEvent.js",
+			"global": true
+		},
+		"GamePlayerStateType": {
+			"type": "script",
+			"path": "script/type/GamePlayerStateType.js",
+			"global": true
+		},
+		"SceneRepository": {
+			"type": "script",
+			"path": "script/repository/SceneRepository.js",
+			"global": true
+		},
+		"GameSceneBase": {
+			"type": "script",
+			"path": "script/scene/GameSceneBase.js",
+			"global": true
+		},
+		"GameSceneType": {
+			"type": "script",
+			"path": "script/type/GameSceneType.js",
+			"global": true
+		},
+		"GameTitleForStandAloneScene": {
+			"type": "script",
+			"path": "script/scene/GameTitleForStandAloneScene.js",
+			"global": true
+		},
+		"option_frame": {
+			"type": "image",
+			"width": 1278,
+			"height": 177,
+			"path": "image/option_frame.png"
+		},
+		"GameFieldModel": {
+			"type": "script",
+			"path": "script/model/GameFieldModel.js",
+			"global": true
+		},
+		"GameObjectOnFiledInterface": {
+			"type": "script",
+			"path": "script/model/GameObjectOnFiledInterface.js",
+			"global": true
+		},
+		"attack_up": {
+			"type": "image",
+			"width": 24,
+			"height": 24,
+			"path": "image/attack_up.png"
+		},
+		"defense_up": {
+			"type": "image",
+			"width": 24,
+			"height": 24,
+			"path": "image/defense_up.png"
+		},
+		"recover0": {
+			"type": "image",
+			"width": 24,
+			"height": 24,
+			"path": "image/recover0.png"
+		},
+		"recover1": {
+			"type": "image",
+			"width": 24,
+			"height": 24,
+			"path": "image/recover1.png"
+		},
+		"speed_up": {
+			"type": "image",
+			"width": 24,
+			"height": 24,
+			"path": "image/speed_up.png"
+		},
+		"GameAutomaticPlayerModel": {
+			"type": "script",
+			"path": "script/model/GameAutomaticPlayerModel.js",
+			"global": true
+		},
+		"GameCharacterPersonalityType": {
+			"type": "script",
+			"path": "script/type/GameCharacterPersonalityType.js",
+			"global": true
+		},
+		"back0": {
+			"type": "image",
+			"width": 544,
+			"height": 416,
+			"path": "image/back0.png"
+		},
+		"back_lose": {
+			"type": "image",
+			"width": 800,
+			"height": 600,
+			"path": "image/back_lose.png"
+		},
+		"back_normal": {
+			"type": "image",
+			"width": 1471,
+			"height": 846,
+			"path": "image/back_normal.png"
+		},
+		"continue": {
+			"type": "image",
+			"width": 1150,
+			"height": 180,
+			"path": "image/continue.png"
+		},
+		"dot_dark_thief": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_dark_thief.png"
+		},
+		"dot_gachi": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_gachi.png"
+		},
+		"dot_heroin0": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_heroin0.png"
+		},
+		"dot_heroin1": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_heroin1.png"
+		},
+		"dot_ike": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_ike.png"
+		},
+		"dot_kishi": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_kishi.png"
+		},
+		"dot_kizoku": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_kizoku.png"
+		},
+		"dot_kura": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_kura.png"
+		},
+		"dot_miko": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_miko.png"
+		},
+		"dot_oni": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_oni.png"
+		},
+		"dot_osana": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_osana.png"
+		},
+		"dot_sensi": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_sensi.png"
+		},
+		"dot_shiro": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_shiro.png"
+		},
+		"dot_tami": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_tami.png"
+		},
+		"dot_thief0": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_thief0.png"
+		},
+		"dot_tomo": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_tomo.png"
+		},
+		"dot_tuyo": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_tuyo.png"
+		},
+		"dot_wa": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_wa.png"
+		},
+		"dot_yaba": {
+			"type": "image",
+			"width": 96,
+			"height": 640,
+			"path": "image/dot_yaba.png"
+		},
+		"monies": {
+			"type": "image",
+			"width": 24,
+			"height": 24,
+			"path": "image/monies.png"
+		},
+		"one_coin": {
+			"type": "image",
+			"width": 24,
+			"height": 24,
+			"path": "image/one_coin.png"
+		},
+		"yubiwa": {
+			"type": "image",
+			"width": 24,
+			"height": 24,
+			"path": "image/yubiwa.png"
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "2"
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-tile/lib/Tile.js",
+		"node_modules/@akashic-extension/akashic-tile/lib/index.js"
+	],
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-tile": "node_modules/@akashic-extension/akashic-tile/lib/index.js"
+	}
+}

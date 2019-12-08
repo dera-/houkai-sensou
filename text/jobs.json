@@ -1,0 +1,20 @@
+[
+  {
+	"name": "worrier",
+	"effectId": "aaaaaa",
+	"min": 0,
+	"max": 50
+  },
+  {
+	"name": "shooter",
+	"effectId": "aaaaaa",
+	"min": 100,
+	"max": 200
+  },
+  {
+	"name": "assassin",
+	"effectId": "aaaaaa",
+	"min": 0,
+	"max": 10
+  }
+]
